@@ -1,0 +1,31 @@
+:root {
+  --mainDarker: #000000;
+  --mainDark: #343440;
+  --mainPurple: #7159C1;
+  --mainGreen: #24A785;
+  --mainLightGreen: #43CD80;
+  --mainGray: #999999;
+  --mainWhite: #F9F9F9;
+  --mainSnow: #FFFFFF;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 14px;
+  background: var(--mainWhiteSnow) !important;
+}
+
+.text-title {
+  font-family: 'Anton', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.text-green {
+  color: var(--mainGreen);
+}
+
+.text-gray {
+  color: var(--mainGray);
+}
